@@ -1,6 +1,6 @@
 {
-	"name": "gatsby-plugin-prismic-previews",
-	"version": "6.0.2",
+	"name": "gatsby-plugin-prismic-previews-nano",
+	"version": "7.0.0",
 	"description": "Gatsby plugin for integrating client-side Prismic previews support",
 	"keywords": [
 		"gatsby",

@@ -30,7 +30,7 @@ export const onPostBootstrap = async (
 	args: ParentSpanPluginArgs,
 	options: PluginOptions,
 ): Promise<void> => {
-	const gatsbySourcePrismicCache = args.getCache("gatsby-source-prismic");
+	const gatsbySourcePrismicCache = args.getCache("gatsby-source-prismic-nano");
 
 	const customTypeModelIDs = await gatsbySourcePrismicCache.get(
 		`${options.repositoryName}:customTypeModelIDs`,
